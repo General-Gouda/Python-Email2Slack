@@ -1,4 +1,4 @@
-# Python-Email2Slack
+# Python-Office365Email2Slack
 Python application that reads emails from a mailbox in Office 365, parses them and sends them to Slack as notifications.
 
 Module requirements can be found in requirements.txt
