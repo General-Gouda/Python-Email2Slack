@@ -1,0 +1,5 @@
+requests
+json
+keyring==10.6.0
+adal
+html2text

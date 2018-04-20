@@ -1,0 +1,31 @@
+{
+    "Testing": false,
+
+    "Log_Level": 20,
+    "Testing_Log_Level": 10,
+
+    "Log_Location": "C:\\Scripts\\Python\\Email2Slack\\Logs",
+
+    "Graph_API_Endpoint": "https://graph.microsoft.com/v1.0",
+    "Authority": "https://login.microsoftonline.com/",
+    "Resource": "https://graph.microsoft.com",
+
+    "Username": "user_mailbox",
+    "Tenant_ID": "tenant_id_goes_here",
+    "Client_ID": "client_id_goes_here",
+
+    "Test_Username": "test_user_mailbox",
+    "Test_Tenant_ID": "test_tenant_id_goes_here",
+    "Test_Client_ID": "test_client_id_goes_here",
+
+    "Sending_Email_Addresses": {
+        "Warning_Alert_Mailbox@domain.com": {
+            "slack_color": "Amber",
+            "slack_channel": "warnings_channel"
+        },
+        "Error_Alert_Mailbox@domain.com": {
+            "slack_color": "Red",
+            "slack_channel": "errors_channel"
+        }
+    }
+}
