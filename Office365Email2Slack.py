@@ -6,11 +6,11 @@ import logging
 import html2text
 from datetime import datetime, time
 
-from Authentication import Authentication
-import APICallers
-import SlackTools
-from SlackTools import SlackColors, SlackClient, Attachment
-from EmailClass import EmailObject
+from Modules.Authentication import Authentication
+import Modules.APICallers as APICallers
+import Modules.SlackTools as SlackTools
+from Modules.SlackTools import SlackColors, SlackClient, Attachment
+from Modules.EmailClass import EmailObject
 
 
 # Change current path to where program lives
